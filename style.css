@@ -1,31 +1,16 @@
-body {
-    /* Un azul muy clarito de fondo */
-    background-color: #e3f2fd; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; }
+
+header { background: #1565c0; color: white; padding: 2rem; text-align: center; }
+
+nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+
+main { padding: 20px; max-width: 800px; margin: auto; }
+
+section { padding: 40px 0; border-bottom: 1px solid #ddd; }
+
+.boton { 
+    background: #ff9800; color: white; padding: 10px 20px; 
+    text-decoration: none; border-radius: 5px; display: inline-block; 
 }
 
-header {
-    /* Azul oscuro para el encabezado */
-    background-color: #1565c0; 
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-.contenido {
-    background-color: white;
-    margin: 40px auto;
-    padding: 30px;
-    /* Un borde azul que combina con el encabezado */
-    border: 3px solid #1976d2; 
-    max-width: 600px;
-    border-radius: 10px;
-}
-
-h2 {
-    color: #0d47a1;
-}
-
-ul {
-    color: #1e88e5;
-}
+footer { text-align: center; padding: 20px; background: #333; color: white; }
